@@ -32,7 +32,7 @@ Global / onChangedBuildSource := ReloadOnSourceChanges
 
 ThisBuild / tlBaseVersion := "0.18"
 
-ThisBuild / scalaVersion := Scala213
+ThisBuild / scalaVersion := Scala3
 ThisBuild / crossScalaVersions := Seq(Scala213, Scala3)
 ThisBuild / githubWorkflowJavaVersions := Seq("8", "11", "17").map(JavaSpec.temurin(_))
 
